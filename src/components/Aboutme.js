@@ -12,7 +12,7 @@ export const Aboutme = () => {
               <span>o</span>
               <span>u</span>
               <span>t</span>
-              <span> </span>
+              <span></span>
               <span>M</span>
               <span>e</span>
             </h2>
