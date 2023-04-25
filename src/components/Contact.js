@@ -49,7 +49,7 @@ export const Contact = () => {
                 src={contactEmail}
                 alt="Contact Email"
               />
-              ssanantoniowork@gmail.com
+              hi@sheleen.dev
             </Row>
             <Row className="contact-row">
               <img

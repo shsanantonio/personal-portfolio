@@ -1,8 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
-import "animate.css";
 
 export const Banner = () => {
   const [index, setIndex] = useState(0); //indicates as to which word is currently displayed on the screen, from toRotate array
