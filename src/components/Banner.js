@@ -55,16 +55,17 @@ export const Banner = () => {
         <Row className="align-items-center">
           <Col
             xs={12}
-            md={6}
-            xl={8} /* Different breakpoint grids depending on the screen */
+            md={12}
+            xl={10} /* Different breakpoint grids depending on the screen */
           >
             <div>
               <span className="tagline">Welcome to my Portfolio</span>
+              <h1>{`Hi! I'm Sheleen `}</h1>
               <h1>
-                {`Hi! I'm Sheleen San Antonio, `}
+                {`San Antonio, `}
                 <span
                   className="txt-rotate"
-                  dataPeriod="1000"
+                  dataPeriod="2000"
                   data-rotate='[ "Web Developer" ]'
                 >
                   <span className="wrap">{text}</span>
