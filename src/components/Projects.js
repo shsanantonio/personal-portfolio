@@ -10,30 +10,35 @@ import Ecommerce from "../assets/img/ecommerce.png";
 export const Projects = () => {
   const projects = [
     {
-      title: "Calculator",
+      title: "Ecommerce",
       description: "Design & Development",
-      imgUrl: calculator,
-    },
-    {
-      title: "Wiki",
-      description: "Design & Development",
-      imgUrl: Wiki,
-    },
-    {
-      title: "Google Search Engine Imitation",
-      description: "Design & Development",
-      imgUrl: googleSearch,
+      imgUrl: Ecommerce,
+      linkUrl: "https://shen001.pythonanywhere.com/",
     },
     {
       title: "Email",
       description: "Design & Development",
       imgUrl: Email,
+      linkUrl: "https://shen002.pythonanywhere.com/",
     },
     {
-      title: "Ecommerce",
+      title: "Wiki",
       description: "Design & Development",
-      imgUrl: Ecommerce,
+      imgUrl: Wiki,
+      linkUrl: "https://shen003.pythonanywhere.com/",
     },
+    {
+      title: "Calculator",
+      description: "Design & Development",
+      imgUrl: calculator,
+    },
+
+    {
+      title: "Google Search Engine Imitation",
+      description: "Design & Development",
+      imgUrl: googleSearch,
+    },
+
     // {
     //   title: "Social Media",
     //   description: "Design & Development",
