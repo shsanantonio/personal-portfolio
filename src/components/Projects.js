@@ -31,12 +31,14 @@ export const Projects = () => {
       title: "Calculator",
       description: "Design & Development",
       imgUrl: calculator,
+      linkUrl: "https://shen004-calculator.vercel.app/",
     },
 
     {
       title: "Google Search Engine Imitation",
       description: "Design & Development",
       imgUrl: googleSearch,
+      linkUrl: "https://shen000-google-search.vercel.app/",
     },
 
     // {
