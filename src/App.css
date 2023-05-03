@@ -476,10 +476,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 15px;
 }
 
+.proj-txtx h5 {
+  margin: 5px;
+}
 .proj-txtx h5:hover {
   text-decoration: underline;
   cursor: pointer;
-  margin: 5px;
 }
 
 .proj-txtx span {

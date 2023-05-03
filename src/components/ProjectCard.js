@@ -9,7 +9,7 @@ export const ProjectCard = ({ title, description, imgUrl, linkUrl }) => {
           <div className="proj-txtx">
             <h4>{title}</h4>
             <span>{description}</span>
-            <h5>Click Me!</h5>
+            <h5>Try it!</h5>
             {`<Readme/How to Soon!>`}
           </div>
         </div>

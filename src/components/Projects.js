@@ -11,32 +11,32 @@ export const Projects = () => {
   const projects = [
     {
       title: "Ecommerce",
-      description: "Design & Development",
+      description: "Javascript, Python and SQLite",
       imgUrl: Ecommerce,
       linkUrl: "https://shen001.pythonanywhere.com/",
     },
     {
       title: "Email",
-      description: "Design & Development",
+      description: "Javascript, Python and Postgresql ",
       imgUrl: Email,
       linkUrl: "https://shen002.pythonanywhere.com/",
     },
     {
       title: "Wiki",
-      description: "Design & Development",
+      description: "HTML, Python, Markdown",
       imgUrl: Wiki,
       linkUrl: "https://shen003.pythonanywhere.com/",
     },
     {
       title: "Calculator",
-      description: "Design & Development",
+      description: "HTML, CSS and Javascript",
       imgUrl: calculator,
       linkUrl: "https://shen004-calculator.vercel.app/",
     },
 
     {
       title: "Google Search Engine Imitation",
-      description: "Design & Development",
+      description: "HTML and CSS",
       imgUrl: googleSearch,
       linkUrl: "https://shen000-google-search.vercel.app/",
     },
