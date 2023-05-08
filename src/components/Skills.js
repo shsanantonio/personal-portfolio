@@ -7,6 +7,9 @@ import cLogo from "../assets/img/c-logo.svg";
 import djangoLogo from "../assets/img/django-logo.svg";
 import githubLogo from "../assets/img/nav-icon4.svg";
 import mysqlLogo from "../assets/img/mysql-logo.svg";
+import vercelLogo from "../assets/img/vercel.svg";
+import renderLogo from "../assets/img/render.png";
+import pythonAWLogo from "../assets/img/pythonanywhere.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -86,6 +89,18 @@ export const Skills = () => {
                 <div className="item">
                   <img src={mysqlLogo} alt="mysql" />
                   <h5>MySQL</h5>
+                </div>
+                <div className="item">
+                  <img src={vercelLogo} alt="vercel" />
+                  <h5>Vercel</h5>
+                </div>
+                <div className="item">
+                  <img src={pythonAWLogo} alt="render" />
+                  <h5>Pythonanywhere</h5>
+                </div>
+                <div className="item">
+                  <img src={renderLogo} alt="render" />
+                  <h5>Render</h5>
                 </div>
               </Carousel>
             </div>

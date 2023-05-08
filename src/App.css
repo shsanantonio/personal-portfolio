@@ -468,6 +468,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 50%;
   opacity: 1;
 }
+
+
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
@@ -479,10 +481,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx h5 {
   margin: 5px;
 }
-.proj-txtx h5:hover {
+.proj-txtx h5:hover, .proj-txtx a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+
 
 .proj-txtx span {
   font-style: italic;
@@ -490,6 +493,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+
+
+.proj-txtx a {
+  font-style: normal;
+  /* font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px; */
+  text-decoration: none;
+}
+
+
 /* .background-image-right {
   top: 20%;
   position: absolute;
@@ -499,7 +513,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 } */
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(to top, #151515 0%, #443662 50%, #151515 100%);
   padding: 60px 0 200px 0;

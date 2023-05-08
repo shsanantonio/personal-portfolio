@@ -14,24 +14,28 @@ export const Projects = () => {
       description: "Javascript, Python and SQLite",
       imgUrl: Ecommerce,
       linkUrl: "https://shen001.pythonanywhere.com/",
+      readmeUrl: "https://github.com/shsanantonio/commerce-app#readme",
     },
     {
       title: "Email",
       description: "Javascript, Python and Postgresql ",
       imgUrl: Email,
       linkUrl: "https://shen002.pythonanywhere.com/",
+      readmeUrl: "https://github.com/shsanantonio/mail-app#readme",
     },
     {
       title: "Wiki",
       description: "HTML, Python, Markdown",
       imgUrl: Wiki,
       linkUrl: "https://shen003.pythonanywhere.com/",
+      readmeUrl: "https://github.com/shsanantonio/wiki-app#readme",
     },
     {
       title: "Calculator",
       description: "HTML, CSS and Javascript",
       imgUrl: calculator,
       linkUrl: "https://shen004-calculator.vercel.app/",
+      readmeUrl: "https://github.com/shsanantonio/calculator#readme",
     },
 
     {
@@ -39,6 +43,7 @@ export const Projects = () => {
       description: "HTML and CSS",
       imgUrl: googleSearch,
       linkUrl: "https://shen000-google-search.vercel.app/",
+      readmeUrl: "https://github.com/shsanantonio/search#readme",
     },
 
     // {
@@ -54,7 +59,11 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
             <h2>Projects</h2>
-            <p>Some of my mini projects.</p>
+            <p>
+              I built both the front-end and the back-end parts of these
+              projects. I used HTML, CSS and vanilla Javascript for front-end;
+              and Python, Django framework, and SQLite for backend.{" "}
+            </p>
 
             <Row>
               {projects.map((project, index) => {
