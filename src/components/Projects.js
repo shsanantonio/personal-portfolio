@@ -4,11 +4,18 @@ import calculator from "../assets/img/calculator.png";
 import googleSearch from "../assets/img/googleSearch.png";
 import Wiki from "../assets/img/wiki.png";
 import Email from "../assets/img/email.png";
-
 import Ecommerce from "../assets/img/ecommerce.png";
+import Ecommerce from "../assets/img/promptopia.png";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Promptopia",
+      description: "Next JS",
+      imgUrl: Ecommerce,
+      linkUrl: "https://project-promptopia-9xtmdrmp1-shsanantonio.vercel.app/",
+      readmeUrl: "https://github.com/shsanantonio/promptopia-completed-comments#readme",
+    },
     {
       title: "Ecommerce",
       description: "Javascript, Python and SQLite",
@@ -61,8 +68,9 @@ export const Projects = () => {
             <h2>Projects</h2>
             <p>
               I built both the front-end and the back-end parts of these
-              projects. I used HTML, CSS and vanilla Javascript for front-end;
-              and Python, Django framework, and SQLite for backend.{" "}
+              projects. I used HTML, CSS, vanilla Javascript, Django framework, Python, and SQLite on some projects; 
+              and NextJS, React framework, Mongoose, MongoDB on my latest projects.
+              {" "}
             </p>
 
             <Row>
