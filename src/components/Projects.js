@@ -5,14 +5,14 @@ import googleSearch from "../assets/img/googleSearch.png";
 import Wiki from "../assets/img/wiki.png";
 import Email from "../assets/img/email.png";
 import Ecommerce from "../assets/img/ecommerce.png";
-import Ecommerce from "../assets/img/promptopia.png";
+import Promptopia from "../assets/img/promptopia.png";
 
 export const Projects = () => {
   const projects = [
     {
       title: "Promptopia",
       description: "Next JS",
-      imgUrl: Ecommerce,
+      imgUrl: Promptopia,
       linkUrl: "https://project-promptopia-9xtmdrmp1-shsanantonio.vercel.app/",
       readmeUrl: "https://github.com/shsanantonio/promptopia-completed-comments#readme",
     },
