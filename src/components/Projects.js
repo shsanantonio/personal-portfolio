@@ -11,7 +11,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Promptopia",
-      description: "Next JS",
+      description: "Next JS, React Framework, Mongoose, MongoDB",
       imgUrl: Promptopia,
       linkUrl: "https://project-promptopia-9xtmdrmp1-shsanantonio.vercel.app/",
       readmeUrl: "https://github.com/shsanantonio/promptopia-completed-comments#readme",
