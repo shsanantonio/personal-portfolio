@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/img/logo.svg"; /* Source: https://undraw.co/illustrations */
+import logo from "../assets/img/programmer.svg"; /* Source: https://undraw.co/illustrations */
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import navIcon4 from "../assets/img/nav-icon4.svg";
@@ -50,7 +50,9 @@ export const NavBar = () => {
         <Navbar.Brand href="/">
           <img
             className="logo-header"
-            src={logo /* logo on topmost left of the page */}
+            src={
+              logo /* logo on topmost left of the page: https://undraw.co/illustrations */
+            }
             alt="Logo"
           />
         </Navbar.Brand>

@@ -5,20 +5,9 @@ export const Aboutme = () => {
     <section className="about-me header-title" id="aboutme">
       <Container>
         <Row className="justify-content-md-center">
-          <Col xs="12" md="10" lg="8">
-            <h2>
-              <span>A</span>
-              <span>b</span>
-              <span>o</span>
-              <span>u</span>
-              <span>t</span>
-              <span></span>
-              <span>M</span>
-              <span>e</span>
-            </h2>
-          </Col>
-          <Col className="about-me-col" xs lg="8">
-            <p>
+          <Col className="about-me-col" xs lg="12">
+            <h2>About Me</h2>
+            {/* <p>
               Hi! I'm Sheleen, a Web developer and Software Engineer in Bay Area
               California.
             </p>
@@ -90,7 +79,53 @@ export const Aboutme = () => {
               I'm excited to move forward and make a leap to leverage my unique
               range of skills and commitment with the right company.
             </p>
-            <p>Wish me luck! 😀 </p>
+            <p>Wish me luck! 😀 </p> */}
+            <p>
+              I am a Software Engineer currently based in the Bay Area,
+              California, and hold a Bachelor's degree in Computer Science from
+              the University of the Philippines, offering a unique blend of
+              academic knowledge and hands-on experience.
+            </p>
+
+            <p>
+              Upon migrating to the United States, I navigated a period of
+              cultural adjustment that led me to temporarily shift my focus to
+              the healthcare sector, where I thrived in a clinical laboratory
+              for the past five years.
+            </p>
+
+            <p>
+              During this journey, I seized the opportunity to further enhance
+              my skill set by working as an intern at HotelCheckins Inc. In this
+              role, I successfully migrated the entire code base to Next.js,
+              significantly improving the website's performance and
+              optimization. I also played a pivotal role in ensuring mobile
+              responsiveness and introduced new features, including policy
+              management tailored to user preferences. Additionally, I took on
+              the challenge of developing a mobile app for the website,
+              showcasing my versatility in both web and mobile development.
+            </p>
+
+            <p>
+              This internship experience not only allowed me to contribute to
+              the evolution of the company's technology stack but also provided
+              valuable insights into effective code management, performance
+              enhancement, and feature development. I am well-versed in version
+              control using GitHub and have experience deploying actual websites
+              to servers for staging, leveraging platforms such as Vercel,
+              Render, and PythonAnywhere.
+            </p>
+
+            <p>
+              I am excited to leverage this diverse background, combined with my
+              recent studies in HTML, CSS, Javascript, React, Next.js, and React
+              Native Expo, to make impactful contributions in the ever-evolving
+              field of software development. I am enthusiastic about the
+              prospect of bringing my skills and experiences to your team and
+              contributing to innovative projects.
+            </p>
+
+            <p>Wish me luck! 😀</p>
           </Col>
         </Row>
       </Container>

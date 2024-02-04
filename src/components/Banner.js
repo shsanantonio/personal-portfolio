@@ -7,7 +7,11 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false); // If the word is being typed out/ deleted out
   const [text, setText] = useState(""); // indicates which text is currently showing on the screen
   const [time, setTime] = useState(300 - Math.random() * 100); // determines how fast one letter comes after the first one is typed, 100 as max
-  const toRotate = ["Web Developer", "Software Engineer"];
+  const toRotate = [
+    "Web Developer",
+    "Mobile App Developer",
+    "Software Engineer",
+  ];
   const period = 2000; // indicates how much time passes between one extra letter being typed out/ transition between each words
 
   useEffect(() => {
@@ -59,22 +63,21 @@ export const Banner = () => {
             xl={12} /* Different breakpoint grids depending on the screen */
           >
             <div>
-              <span className="tagline">Welcome to my Portfolio</span>
+              <span className="tagline"></span>
               <h1>{`Hi! I'm Sheleen `}</h1>
               <h1>
                 {`San Antonio, `}
                 <span
                   className="txt-rotate"
-                  dataPeriod="1000"
+                  dataperiod="1000"
                   data-rotate='[ "Web Developer" ]'
                 >
                   <span className="wrap">{text}</span>
                 </span>
               </h1>
               <p>
-                I'm a web developer with a clinical laboratory science
-                background. In other words, I was a software engineer, then a
-                clinical laboratory assistant II, and returned a Web Developer.{" "}
+                A Software Engineer in the Bay Area with a background in
+                clinical laboratory science.
               </p>
             </div>
           </Col>

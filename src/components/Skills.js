@@ -10,6 +10,8 @@ import mysqlLogo from "../assets/img/mysql-logo.svg";
 import vercelLogo from "../assets/img/vercel.svg";
 import renderLogo from "../assets/img/render.png";
 import pythonAWLogo from "../assets/img/pythonanywhere.png";
+import next from "../assets/img/next-js.svg";
+import expo from "../assets/img/expo-svgrepo-com.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -40,14 +42,7 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>
-                <span>S</span>
-                <span>k</span>
-                <span>i</span>
-                <span>l</span>
-                <span>l</span>
-                <span>s</span>
-              </h2>
+              <h2>Skills</h2>
               <p>I have experience with these technologies.</p>
               <Carousel
                 responsive={responsive}
@@ -55,20 +50,24 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={html5} alt="html5" />
-                  <h5>HTML</h5>
+                  <img src={next} alt="react" />
+                  <h5>Next.js</h5>
                 </div>
                 <div className="item">
-                  <img src={css3} alt="css3" />
-                  <h5>CSS</h5>
+                  <img src={react} alt="react" />
+                  <h5>React</h5>
                 </div>
                 <div className="item">
                   <img src={js} alt="javascript" />
                   <h5>Javascript</h5>
                 </div>
                 <div className="item">
-                  <img src={react} alt="react" />
-                  <h5>React</h5>
+                  <img src={html5} alt="html5" />
+                  <h5>HTML</h5>
+                </div>
+                <div className="item">
+                  <img src={css3} alt="css3" />
+                  <h5>CSS</h5>
                 </div>
                 <div className="item">
                   <img src={pythonLogo} alt="python" />
@@ -101,6 +100,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={renderLogo} alt="render" />
                   <h5>Render</h5>
+                </div>
+                <div className="item">
+                  <img src={expo} alt="render" />
+                  <h5>React Native Expo</h5>
                 </div>
               </Carousel>
             </div>

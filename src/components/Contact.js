@@ -35,6 +35,8 @@ export const Contact = () => {
           setMsgInfo("Error! Message did not send. Please try again");
         }
       );
+
+    form.current.reset();
   };
 
   return (
