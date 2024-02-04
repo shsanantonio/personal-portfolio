@@ -1,7 +1,7 @@
 import html5 from "../assets/img/html5.svg";
 import css3 from "../assets/img/css3.svg";
 import js from "../assets/img/js.svg";
-import react from "../assets/img/react.svg";
+import react from "../assets/img/react-3.svg";
 import pythonLogo from "../assets/img/python-logo.svg";
 import cLogo from "../assets/img/c-logo.svg";
 import djangoLogo from "../assets/img/django-logo.svg";
@@ -50,7 +50,7 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={next} alt="react" />
+                  <img src={next} alt="next" />
                   <h5>Next.js</h5>
                 </div>
                 <div className="item">
