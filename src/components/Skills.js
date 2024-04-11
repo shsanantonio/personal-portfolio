@@ -11,6 +11,7 @@ import vercelLogo from "../assets/img/vercel.svg";
 import renderLogo from "../assets/img/render.png";
 import pythonAWLogo from "../assets/img/pythonanywhere.png";
 import next from "../assets/img/next-js.svg";
+import reactNative from "../assets/img/react-native.svg";
 import expo from "../assets/img/expo-svgrepo-com.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -104,6 +105,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={expo} alt="render" />
                   <h5>React Native Expo</h5>
+                </div>
+                <div className="item">
+                  <img src={reactNative} alt="react" />
+                  <h5>React Native</h5>
                 </div>
               </Carousel>
             </div>
