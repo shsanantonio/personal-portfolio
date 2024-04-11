@@ -6,15 +6,24 @@ import Wiki from "../assets/img/wiki.png";
 import Email from "../assets/img/email.png";
 import Ecommerce from "../assets/img/ecommerce.png";
 import Promptopia from "../assets/img/promptopia.png";
+import Checkins from "../assets/img/checkins.png";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Hotel Checkins",
+      description: "Next JS, React, Javascript, HTML, Tailwind CSS",
+      imgUrl: Checkins,
+      linkUrl: "https://search.hotelcheckins.com",
+      readmeUrl: "https://www.sheleen.dev",
+    },
     {
       title: "Promptopia",
       description: "Next JS, React Framework, Mongoose, MongoDB",
       imgUrl: Promptopia,
       linkUrl: "https://project-promptopia-9xtmdrmp1-shsanantonio.vercel.app/",
-      readmeUrl: "https://github.com/shsanantonio/promptopia-completed-comments#readme",
+      readmeUrl:
+        "https://github.com/shsanantonio/promptopia-completed-comments#readme",
     },
     {
       title: "Ecommerce",
@@ -68,9 +77,9 @@ export const Projects = () => {
             <h2>Projects</h2>
             <p>
               I built both the front-end and the back-end parts of these
-              projects. I used HTML, CSS, vanilla Javascript, Django framework, Python, and SQLite on some projects; 
-              and NextJS, React framework, Mongoose, MongoDB on my latest projects.
-              {" "}
+              projects. I used HTML, CSS, vanilla Javascript, Django framework,
+              Python, and SQLite on some projects; and NextJS, React framework,
+              Mongoose, MongoDB on my latest projects.{" "}
             </p>
 
             <Row>
