@@ -81,48 +81,40 @@ export const Aboutme = () => {
             </p>
             <p>Wish me luck! 😀 </p> */}
             <p>
-              I am a Software Engineer currently based in the Bay Area,
-              California, and hold a Bachelor's degree in Computer Science from
-              the University of the Philippines, offering a unique blend of
-              academic knowledge and hands-on experience.
+              I am seeking an Analyst position where I can use my
+              problem-solving skills, attention to detail, and technical
+              background to drive meaningful insights and process improvements.
             </p>
 
             <p>
-              Upon migrating to the United States, I navigated a period of
-              cultural adjustment that led me to temporarily shift my focus to
-              the healthcare sector, where I thrived in a clinical laboratory
-              for the past five years.
+              I have a Bachelor's degree in Computer Science from the University
+              of the Philippines. After moving to the U.S., I spent five years
+              as a Clinical Laboratory Associate at IGeneX, where I managed and
+              validated complex data, ensured compliance, and developed
+              automated reporting solutions. I also performed data
+              reconciliation, created visual reports, and streamlined workflows
+              to improve efficiency. This experience strengthened my analytical
+              skills and ability to work with large datasets in high-pressure
+              environments.
             </p>
 
             <p>
-              During this journey, I seized the opportunity to further enhance
-              my skill set by working as an intern at HotelCheckins Inc. In this
-              role, I successfully migrated the entire code base to Next.js,
-              significantly improving the website's performance and
-              optimization. I also played a pivotal role in ensuring mobile
-              responsiveness and introduced new features, including policy
-              management tailored to user preferences. Additionally, I took on
-              the challenge of developing a mobile app for the website,
-              showcasing my versatility in both web and mobile development.
+              To expand my technical expertise, I worked as a Software Engineer
+              at Checkins.AI, where I optimized system performance, improved
+              efficiency by 20%, and developed applications using JavaScript
+              frameworks and APIs. I also contributed to mobile development,
+              data organization, and project management, ensuring seamless
+              system integration and data accuracy. My work with testing tools
+              like Cypress and Jest further reinforced my attention to detail
+              and commitment to quality assurance.
             </p>
 
             <p>
-              This internship experience not only allowed me to contribute to
-              the evolution of the company's technology stack but also provided
-              valuable insights into effective code management, performance
-              enhancement, and feature development. I am well-versed in version
-              control using GitHub and have experience deploying actual websites
-              to servers for staging, leveraging platforms such as Vercel,
-              Render, and PythonAnywhere.
-            </p>
-
-            <p>
-              I am excited to leverage this diverse background, combined with my
-              recent studies in HTML, CSS, Javascript, React, Next.js, and React
-              Native Expo, to make impactful contributions in the ever-evolving
-              field of software development. I am enthusiastic about the
-              prospect of bringing my skills and experiences to your team and
-              contributing to innovative projects.
+              With experience in both healthcare and technology, I bring a
+              strong mix of analytical thinking, data management, and process
+              optimization. I am excited to transition into an analyst role,
+              where I can apply my skills to uncover insights, improve
+              operations, and support data-driven decision-making.
             </p>
 
             <p>Wish me luck! 😀</p>
