@@ -35,7 +35,7 @@ export const Footer = () => {
                 <img src={navIcon4} /* Github icon */ alt="" />
               </a>
             </div>
-            <p>Copyright 2023. All Rights Reserved</p>
+            <p>Copyright 2025. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

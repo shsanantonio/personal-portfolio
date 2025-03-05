@@ -88,8 +88,8 @@ export const Aboutme = () => {
 
             <p>
               I have a Bachelor's degree in Computer Science from the University
-              of the Philippines. After moving to the U.S., I spent five years
-              as a Clinical Laboratory Associate at IGeneX, where I managed and
+              of the Philippines. After moving to the U.S., I spent six years as
+              a Clinical Laboratory Associate at IGeneX, where I managed and
               validated complex data, ensured compliance, and developed
               automated reporting solutions. I also performed data
               reconciliation, created visual reports, and streamlined workflows
