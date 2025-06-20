@@ -79,12 +79,12 @@ export const Aboutme = () => {
               I'm excited to move forward and make a leap to leverage my unique
               range of skills and commitment with the right company.
             </p>
-            <p>Wish me luck! 😀 </p> */}
-            /*<p>
+            <p>Wish me luck! 😀 </p> 
+            <p>
               I am seeking an Analyst position where I can use my
               problem-solving skills, attention to detail, and technical
               background to drive meaningful insights and process improvements.
-            </p>*/
+            </p>*/}
 
             <p>
               I have a Bachelor's degree in Computer Science from the University
