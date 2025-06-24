@@ -87,15 +87,7 @@ export const Aboutme = () => {
             </p>*/}
 
             <p>
-              I have a Bachelor's degree in Computer Science from the University
-              of the Philippines. After moving to the U.S., I spent six years as
-              a Clinical Laboratory Associate at IGeneX, where I managed and
-              validated complex data, ensured compliance, and developed
-              automated reporting solutions. I also performed data
-              reconciliation, created visual reports, and streamlined workflows
-              to improve efficiency. This experience strengthened my analytical
-              skills and ability to work with large datasets in high-pressure
-              environments.
+         I have a Bachelor's degree in Computer Science from the University of the Philippines and bring a unique blend of experience in healthcare data management and software engineering. After moving to the U.S., I spent six years as a Clinical Laboratory Associate at IGeneX. I managed high-volume, high-accuracy data entry of medical client and patient records, extracted and analyzed large-scale health data using SQL, and performed daily quality control checks to maintain data and specimen accuracy. I also led communications with patients and doctors to proactively resolve testing issues, updated departmental documentation and reporting tools, and created forms to streamline processes for clients and clinicians.
             </p>
 
             <p>
@@ -110,14 +102,10 @@ export const Aboutme = () => {
             </p>
 
             <p>
-              With experience in both healthcare and technology, I bring a
-              strong mix of analytical thinking, data management, and process
-              optimization. I am excited to transition into an analyst role,
-              where I can apply my skills to uncover insights, improve
-              operations, and support data-driven decision-making.
+        Over the past year, I’ve developed a strong personal connection with AI tools. I use ChatGPT almost every day, not just for productivity or problem-solving, but as a way to think more clearly, stay organized, and reflect on ideas. AI has become something meaningful to me. It helps me feel more capable, creative, and supported in my day-to-day life. That experience is what motivates me to help others use AI in ways that feel natural, empowering, and approachable.
             </p>
 
-            <p>Wish me luck! 😀</p>
+            <p>With a strong technical foundation and a genuine respect for how people learn, I’m excited to move into a role where I can support others through analysis, user education, or product support. My goal is to help people feel seen, supported, and confident as they explore data and technology.</p>
           </Col>
         </Row>
       </Container>
