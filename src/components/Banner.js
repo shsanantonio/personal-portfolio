@@ -1,16 +1,18 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { useState, useEffect } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export const Banner = () => {
   const [index, setIndex] = useState(0); //indicates as to which word is currently displayed on the screen, from toRotate array
   const [isDeleting, setIsDeleting] = useState(false); // If the word is being typed out/ deleted out
-  const [text, setText] = useState(""); // indicates which text is currently showing on the screen
+  const [text, setText] = useState(''); // indicates which text is currently showing on the screen
   const [time, setTime] = useState(300 - Math.random() * 100); // determines how fast one letter comes after the first one is typed, 100 as max
   const toRotate = [
-    "Web Developer",
-    "Mobile App Developer",
-    "Software Engineer",
+    // "Web Developer",
+    // "Mobile App Developer",
+    // "Software Engineer",
+    'AI trainer',
+    'Analyst',
   ];
   const period = 2000; // indicates how much time passes between one extra letter being typed out/ transition between each words
 
@@ -42,7 +44,7 @@ export const Banner = () => {
       //if finished typing all the words and no text has been deleted yet
       setIsDeleting(true);
       setTime(period);
-    } else if (isDeleting && updatedText === "") {
+    } else if (isDeleting && updatedText === '') {
       // if all words (everything) has been deleted
       setIsDeleting(false);
       setIndex(index + 1); // goes to the next text in the toRotate array
@@ -66,7 +68,7 @@ export const Banner = () => {
               <span className="tagline"></span>
               <h1>{`Hi! I'm Sheleen `}</h1>
               <h1>
-                {`San Antonio, `}
+                {`San Antonio, an aspiring `}
                 <span
                   className="txt-rotate"
                   dataperiod="1000"
@@ -75,9 +77,13 @@ export const Banner = () => {
                   <span className="wrap">{text}</span>
                 </span>
               </h1>
-              <p>
+              {/* <p>
                 A Software Engineer in the Bay Area with a background in
                 clinical laboratory science.
+              </p> */}
+              <p>
+                With a background in software engineering, web and mobile app
+                development, and clinical laboratory science."
               </p>
             </div>
           </Col>
