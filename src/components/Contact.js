@@ -1,38 +1,38 @@
-import { Container, Row, Col } from "react-bootstrap";
-import Alert from "react-bootstrap/Alert";
-import { useState } from "react";
-import contactMe from "../assets/img/contact-me.svg"; //https://undraw.co/
-import contactHome from "../assets/img/contact-home.svg";
-import contactEmail from "../assets/img/contact-email.svg";
-import emailjs from "emailjs-com";
+import { Container, Row, Col } from 'react-bootstrap';
+import Alert from 'react-bootstrap/Alert';
+import { useState } from 'react';
+import contactMe from '../assets/img/contact-me.svg'; //https://undraw.co/
+import contactHome from '../assets/img/contact-home.svg';
+import contactEmail from '../assets/img/contact-email.svg';
+import emailjs from 'emailjs-com';
 
-import { useRef } from "react";
+import { useRef } from 'react';
 
 export const Contact = () => {
   const form = useRef();
-  const [msgResult, setMsgResult] = useState("");
-  const [msgInfo, setMsgInfo] = useState("");
+  const [msgResult, setMsgResult] = useState('');
+  const [msgInfo, setMsgInfo] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault(); //stop page from refreshing when the form is submitted
 
     emailjs
       .sendForm(
-        "service_jfxy0ct",
-        "template_bc4y2c9",
+        'service_y0irxgy',
+        'template_nror5pe',
         form.current,
-        "iSUP_5so4VKeHGT8v"
+        'bjtwhyGpkL6xv9j4G'
       )
       .then(
         (result) => {
           console.log(result.text);
-          setMsgResult("success");
-          setMsgInfo("Message Sent!");
+          setMsgResult('success');
+          setMsgInfo('Message Sent!');
         },
         (error) => {
           console.log(error.text);
-          setMsgResult("danger");
-          setMsgInfo("Error! Message did not send. Please try again");
+          setMsgResult('danger');
+          setMsgInfo('Error! Message did not send. Please try again');
         }
       );
 
