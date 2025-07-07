@@ -83,7 +83,7 @@ export const Banner = () => {
               </p> */}
               <p>
                 With a background in software engineering, web and mobile app
-                development, and clinical laboratory science."
+                development, and clinical laboratory science.
               </p>
             </div>
           </Col>
