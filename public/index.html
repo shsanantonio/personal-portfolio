@@ -57,13 +57,21 @@
             },
           });
         }
+
         const onLoad = function () {
           const script = document.createElement('script');
           script.src = 'https://www.chatbase.co/embed.min.js';
           script.id = 'OLlJKWZnNSQq7pWeTZFOu';
           script.domain = 'www.chatbase.co';
+
+          script.onload = function () {
+            // Ensure chatbot opens automatically once fully loaded
+            window.chatbase('open');
+          };
+
           document.body.appendChild(script);
         };
+
         if (document.readyState === 'complete') {
           onLoad();
         } else {
