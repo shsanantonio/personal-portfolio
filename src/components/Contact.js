@@ -43,7 +43,7 @@ export const Contact = () => {
     <section className="contact" id="contact">
       <Container>
         <Row className="align-items-center">
-          <Col className="contact-info" size={12} md={6}>
+          <Col className="contact-info animate-on-scroll" size={12} md={6}>
             <img className="contact-me" src={contactMe} alt="Contact Me" />
             <Row className="contact-row">
               <img
@@ -62,7 +62,7 @@ export const Contact = () => {
               Sunnyvale, California
             </Row>
           </Col>
-          <Col size={12} md={6}>
+          <Col size={12} md={6} className="animate-on-scroll">
             <h2>Contact Me</h2>
 
             <form ref={form} onSubmit={sendEmail}>

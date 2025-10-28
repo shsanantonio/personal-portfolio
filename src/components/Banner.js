@@ -11,8 +11,8 @@ export const Banner = () => {
     // "Web Developer",
     // "Mobile App Developer",
     // "Software Engineer",
-    'AI trainer',
-    'Analyst',
+    'Conversational AI Designer',
+    'Web/Mobile Developer',
   ];
   const period = 2000; // indicates how much time passes between one extra letter being typed out/ transition between each words
 
@@ -25,7 +25,7 @@ export const Banner = () => {
     return () => {
       clearInterval(ticker);
     }; // reset interval and clear it
-  }, [text]); //use effect will be run everytime text gets updated (dependent to text)
+  }, [text, time]); //use effect will be run everytime text or time gets updated
 
   const tick = () => {
     let i = index % toRotate.length; //index must always be less than the length of toRotate
@@ -37,7 +37,7 @@ export const Banner = () => {
     setText(updatedText);
 
     if (isDeleting) {
-      setTime((setTime) => setTime / 2); //makes time faster
+      setTime((prevTime) => prevTime / 2); //makes time faster
     }
 
     if (!isDeleting && updatedText === fullText) {
@@ -66,13 +66,12 @@ export const Banner = () => {
           >
             <div>
               <span className="tagline"></span>
-              <h1>{`Hi! I'm Sheleen `}</h1>
+              <h1>{`Hi! I'm Sheleen San Antonio.`}</h1>
               <h1>
-                {`San Antonio, an aspiring `}
                 <span
                   className="txt-rotate"
                   dataperiod="1000"
-                  data-rotate='[ "Web Developer" ]'
+                  data-rotate='["Conversational AI Designer", "Web/Mobile Developer"]'
                 >
                   <span className="wrap">{text}</span>
                 </span>
@@ -82,8 +81,7 @@ export const Banner = () => {
                 clinical laboratory science.
               </p> */}
               <p>
-                With a background in software engineering, web and mobile app
-                development, and clinical laboratory science.
+                I have a background in software engineering, web and mobile app development, clinical laboratory science, and data entry.
               </p>
             </div>
           </Col>

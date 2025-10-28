@@ -15,6 +15,14 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Preload critical fonts for better performance -->
+    <link rel="preload" href="/static/media/CentraNo2-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+    <link rel="preload" href="/static/media/CentraNo2-Medium.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://www.chatbase.co" />
+    
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,7 +32,8 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Sheleen</title>
+    <title>Sheleen San Antonio - Software Engineer & Analyst</title>
+    <meta name="description" content="Portfolio of Sheleen San Antonio - Software Engineer, Web Developer, and Analyst with expertise in React, JavaScript, Python, and data analysis." />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

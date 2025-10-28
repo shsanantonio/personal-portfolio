@@ -5,7 +5,7 @@ export const Aboutme = () => {
     <section className="about-me header-title" id="aboutme">
       <Container>
         <Row className="justify-content-md-center">
-          <Col className="about-me-col" xs lg="12">
+          <Col className="about-me-col animate-on-scroll" xs lg="12">
             <h2>About Me</h2>
             {/* <p>
               Hi! I'm Sheleen, a Web developer and Software Engineer in Bay Area

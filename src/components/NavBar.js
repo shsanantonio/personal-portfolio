@@ -117,7 +117,7 @@ export const NavBar = () => {
                 <img src={navIcon2} /* Facebook icon */ alt="" />
               </a>
               <a
-                href="https://www.instagram.com/ascenshen333/"
+                href="https://www.instagram.com/ascenshenn/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

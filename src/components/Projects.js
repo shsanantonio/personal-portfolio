@@ -72,23 +72,21 @@ export const Projects = () => {
   return (
     <section className="project" id="projects">
       <Container>
-        <Row>
-          <Col size={12}>
-            <h2>Projects</h2>
-            <p>
-              I built both the front-end and the back-end parts of these
-              projects. I used HTML, CSS, vanilla Javascript, Django framework,
-              Python, and SQLite on some projects; and NextJS, React framework,
-              Mongoose, MongoDB on my latest projects.{" "}
-            </p>
+        <div className="animate-on-scroll">
+          <h2>Projects</h2>
+          <p>
+            I built both the front-end and the back-end parts of these
+            projects. I used HTML, CSS, vanilla Javascript, Django framework,
+            Python, and SQLite on some projects; and NextJS, React framework,
+            Mongoose, MongoDB on my latest projects.{" "}
+          </p>
 
-            <Row>
-              {projects.map((project, index) => {
-                return <ProjectCard key={index} {...project} />;
-              })}
-            </Row>
-          </Col>
-        </Row>
+          <Row>
+            {projects.map((project, index) => {
+              return <ProjectCard key={index} {...project} />;
+            })}
+          </Row>
+        </div>
       </Container>
     </section>
   );

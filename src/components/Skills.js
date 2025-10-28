@@ -42,7 +42,7 @@ export const Skills = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="skill-bx wow zoomIn">
+            <div className="skill-bx wow zoomIn animate-on-scroll">
               <h2>Skills</h2>
               <p>I have experience with these technologies.</p>
               <Carousel

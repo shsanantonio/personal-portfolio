@@ -14,7 +14,7 @@ export const Blog = () => {
     <section className="blog header-title" id="blog">
       <Container>
         <Row className="justify-content-md-center skill">
-          <Col className="blog-col" xs lg="12">
+          <Col className="blog-col animate-on-scroll" xs lg="12">
             <h2>Reflections on AI and Learning</h2>
 
             <p>
