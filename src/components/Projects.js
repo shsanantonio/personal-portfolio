@@ -1,6 +1,5 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
-import calculator from '../assets/img/calculator.png';
 import googleSearch from '../assets/img/googleSearch.png';
 import Wiki from '../assets/img/wiki.png';
 import Email from '../assets/img/email.png';
