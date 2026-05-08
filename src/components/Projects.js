@@ -8,9 +8,26 @@ import Promptopia from '../assets/img/promptopia.png';
 import Checkins from '../assets/img/checkins.png';
 import CollectIQ from '../assets/img/collectiq.png';
 import HumanityPassport from '../assets/img/humanityPassport.png';
+import EmotionalGuidance from '../assets/img/EmotionalGuide.png';
+import ReflectiveAI from '../assets/img/ReflectiveAI.png';
 
 export const Projects = () => {
   const projects = [
+    {
+      title: 'Reflective AI',
+      description:
+        'Built a transparent self-auditing framework for a custom AI assistant, enabling real-time detection, scoring, and correction of response-level biases by introducing a visible reasoning loop that shows how outputs are evaluated, revised, and refined before final delivery.',
+      imgUrl: ReflectiveAI,
+      linkUrl: 'https://project-creator--ssanantonio.replit.app',
+    },
+    {
+      title: 'Emotional Guidance',
+      description:
+        'Built a conversational AI using ChatGPT Builder, guiding users along an emotional scale through structured prompting and adaptive response sequencing.',
+      imgUrl: EmotionalGuidance,
+      linkUrl:
+        'https://chatgpt.com/g/g-69b0f9fa2ecc8191be870a8c8b60495f-abraham-hicks-emotional-alignment-guide',
+    },
     {
       title: 'Collect IQ',
       description:
